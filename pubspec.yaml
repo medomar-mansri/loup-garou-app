@@ -28,12 +28,14 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  flutter:
-    sdk: flutter
+  f flutter:
+  sdk: flutter
+  get: ^4.6.5                 # GetX for state management & navigation
+  vibration: ^1.7.4           # For role vibration alerts
+  shared_preferences: ^2.1.1  # Save settings locally
+  uuid: ^3.0.7   
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
+  
 
 dev_dependencies:
   flutter_test:
